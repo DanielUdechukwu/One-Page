@@ -1,0 +1,66 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing:border-box;
+}
+.text-xtra{
+  color: #124265;
+}
+.text-xtra-bl{
+  color: #1e6ca6;
+}
+.intro{
+  background-image: url('https://bootstrapmade.com/demo/templates/OnePage/assets/img/hero-bg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+#count-section{
+  background: #f8fbfe;
+}
+#count-section h2{
+  font-size: 48px;
+}
+.about li,
+.img-box li{
+  list-style-image: url('../images/check-all.svg');
+}
+.font{
+  font-size: 14px;
+}
+.image-box img{
+  max-width: 40%;
+  filter: grayscale(100%);
+  transition: all 0.4s ease-in-out;
+}
+.image-box img:hover{
+  filter: grayscale(0);
+  transform: scale(1.15);
+}
+#client-section{
+  background: #f8fbfe;
+}
+.testifier{
+  text-align: center;
+}
+.testifier img{
+  height: 6rem;
+  border-radius: 50%;
+}
+.testifier h3{
+  font-size: 16px;
+  margin-bottom: .2rem;
+}
+.testifier h4{
+  font-size: 12px;
+  color: #999999;
+}
+.testimony p{
+  background: #f3f9fd;
+  font-size: .95rem;
+  border-radius: .4rem;
+}
+.test p{
+  font-size: 14px;
+}
