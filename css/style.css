@@ -3,6 +3,9 @@
   padding: 0;
   box-sizing:border-box;
 }
+.fs2{
+  font-size: .9rem;
+}
 .text-xtra{
   color: #124265;
 }
@@ -63,4 +66,19 @@
 }
 .test p{
   font-size: 14px;
+}
+.icon{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.icon-box{
+  background: #fff;
+}
+.ball{
+  position: absolute;
+}
+#service-section{
+  background: #f7fbfe;
 }
