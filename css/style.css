@@ -116,9 +116,6 @@
 .icon i::after{
   color: #fff;
 }
-.icon:hover{
-
-}
 .svg-bg:hover .seen,
 .svg-bg .hidden {
     display: none;
