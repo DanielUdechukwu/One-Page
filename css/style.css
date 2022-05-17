@@ -89,3 +89,41 @@
 #call-to-action{
   background: #2487ce;
 }
+.svg-bg1:hover path{
+  fill: blue;
+  transition: .55s ease-in-out;
+}
+.svg-bg2:hover path{
+  fill: #ffa76e;
+  transition: .55s ease-in-out;
+}
+.svg-bg3:hover path{
+  fill: #e80368;
+  transition: .55s ease-in-out;
+}
+.svg-bg4:hover path{
+  fill: #ffbb2c;
+  transition: .55s ease-in-out;
+}
+.svg-bg5:hover path{
+  fill: #ff5828;
+  transition: .55s ease-in-out;
+}
+.svg-bg6:hover path{
+  fill: #11dbcf;
+  transition: .55s ease-in-out;
+}
+.icon i::after{
+  color: #fff;
+}
+.icon:hover{
+
+}
+.svg-bg:hover .seen,
+.svg-bg .hidden {
+    display: none;
+    /* transition: .55s ease-in-out; */
+}
+.svg-bg:hover .hidden {
+    display: inline;
+}
