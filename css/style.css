@@ -111,7 +111,7 @@
 }
 .svg-bg6:hover path{
   fill: #11dbcf;
-  transition: .55s ease-in-out;
+  transition: all ease-in-out .45s;
 }
 .icon i::after{
   color: #fff;
